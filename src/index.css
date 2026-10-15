@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --color-ink: #0b1f33;
+  --color-brand: #0a4fbf;
+  --color-brand-dark: #083e96;
+  --color-mist: #f4f7fb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #d6e4ff;
+  color: #0b1f33;
+}
+
+.hero-grid {
+  position: relative;
+  background-color: #fff;
+  background-image:
+    linear-gradient(to right, rgba(10, 79, 191, 0.09) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(10, 79, 191, 0.09) 1px, transparent 1px);
+  background-size: 52px 52px;
+}
+
+.hero-grid::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    rgba(255, 255, 255, 0.97) 0%,
+    rgba(255, 255, 255, 0.94) 48%,
+    rgba(255, 255, 255, 0.42) 100%
+  );
+}
+
+.tab-panel {
+  animation: rise 220ms ease;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .tab-panel {
+    animation: none;
+  }
+}
