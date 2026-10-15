@@ -32,9 +32,9 @@ export function Hero() {
           </div>
         </div>
         <img
-          src="/images/neisa.jpg"
-          alt="Hussein Nsanzimfura at a nuclear energy summit"
-          className="mx-auto aspect-[3/4] w-full max-w-sm rounded-3xl object-cover object-[center_42%] shadow-[0_24px_50px_-28px_rgba(10,79,191,0.8)] lg:max-w-none"
+          src="/images/hussein-about.jpg"
+          alt="Hussein Nsanzimfura at the Nuclear Energy Innovation Summit for Africa in Kigali"
+          className="mx-auto aspect-square w-full max-w-xs rounded-full object-cover object-center shadow-[0_24px_50px_-28px_rgba(10,79,191,0.8)] sm:max-w-sm lg:max-w-[22rem]"
         />
       </div>
     </section>

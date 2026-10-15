@@ -250,10 +250,10 @@ export const conferences: Conference[] = [
     year: "2025",
     description:
       "An African platform promoting dialogue on energy access, grid reliability, and advocacy for sustainable nuclear energy development.",
-    image: "/images/neisa.jpg",
+    image: "/images/neisa-2025-summit.jpg",
     imageAlt:
-      "Hussein Nsanzimfura at a nuclear energy event hosted by the Republic of Rwanda and the Rwanda Atomic Energy Board",
-    imageClass: "object-[center_62%]",
+      "Hussein Nsanzimfura with a colleague in front of a nuclear energy banner at the Nuclear Energy Innovation Summit for Africa",
+    imageClass: "object-center",
   },
   {
     title: "Africa Energy Expo 2025",
@@ -270,9 +270,9 @@ export const conferences: Conference[] = [
     year: "2025",
     description:
       "A technical conference exploring simulation tools that support reliable energy systems and better planning for improved energy access.",
-    image: "/images/empower-forum.jpg",
+    image: "/images/africa-simulation-conference.jpg",
     imageAlt:
-      "Hussein Nsanzimfura speaking on a panel at a public energy forum",
+      "Hussein Nsanzimfura at the Africa Simulation Conference, holding an Advantage magazine",
     imageClass: "object-center",
   },
   {
